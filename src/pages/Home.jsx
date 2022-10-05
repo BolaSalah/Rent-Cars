@@ -1,13 +1,13 @@
 import React from "react";
 
-import HeroSlider from "../components/UI/HeroSlider";
+import HeroSlider from "../components/partOfPage/HeroSlider";
 import Helmet from "../components/Helmet/Helmet";
 
 import { Container, Row, Col } from "reactstrap";
-import AboutSection from "../components/UI/AboutSection";
+import AboutSection from "../components/partOfPage/AboutSection";
 import carData from "../assets/data/carData";
-import CarItem from "../components/UI/CarItem";
-import Testimonial from "../components/UI/Testimonial";
+import CarItem from "../components/partOfPage/CarItem";
+import Testimonial from "../components/partOfPage/Testimonial";
 
 const Home = () => {
   return (

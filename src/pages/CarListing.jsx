@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
-import CommonSection from "../components/UI/CommonSection";
-import CarItem from "../components/UI/CarItem";
+import CommonSection from "../components/partOfPage/CommonSection";
+import CarItem from "../components/partOfPage/CarItem";
 import carData from "../assets/data/carData";
 
 const CarListing = () => {
