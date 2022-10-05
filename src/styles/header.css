@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: #000d6b8c;
+  transition: 1s;
+}
+
+.header:hover {
+  background: #000d6b;
+}
+.main__navbar {
+  padding: 15px 0px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+}
+
+.nav__item {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav__item:hover,
+.nav__active{
+  color: #f9a826;
+}
